@@ -6,6 +6,7 @@
 
 Go to [**releases**](https://github.com/trbflxr/ksl/releases) and download latest KSL release.
 
+> [!IMPORTANT]  
 > Keep in mind that for **Windows** OS you have to download the archive with **win** suffix.
 
 ![latest_release](../images/install_release_win.png)
@@ -16,11 +17,11 @@ Go to [**releases**](https://github.com/trbflxr/ksl/releases) and download lates
 
 ## 3. Open the downloaded archive and extract its contents
 
-> Drag all the files and folders from the archive to the game root folder.
+Drag all the files and folders from the archive to the game root folder.
 
 ![drag_files](../images/install_drag_win.png)
 
-> Replace all the files if needed.
+Replace all the files if needed.
 
 ![replace_files](../images/install_replace_win.png)
 

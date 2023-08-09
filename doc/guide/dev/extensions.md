@@ -1,5 +1,6 @@
 ﻿# KSL extension development guide
 
+> [!IMPORTANT]  
 > At this point you already should have KSL [SDK](https://github.com/trbflxr/ksl_sdk) downloaded and configured [project](setup_project.md).
 >
 > Also your extension must be **registered** and you should have already **generated a key** for the maykr. Additional information [here](control_panel.md).
@@ -21,6 +22,7 @@ public class ExampleExtension : BaseExtension {
 }
 ```
 
+> [!NOTE]  
 > Keep in mind that [BaseExtension](../../api/base_extension.md) class are **not** inherited from MonoBehaviour. You can override methods from BaseExtension which represents event methods from MonoBehaviour.
 >
 > In case if you need for an example need MonoBehaviour to run a coroutine you can use [Behaviour](../../api/base_extension.md#behaviour) property of BaseExtension.

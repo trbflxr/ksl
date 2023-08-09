@@ -136,6 +136,7 @@ public virtual Texture2D GetIcon() { return null; }
 
 Override this method if you want to set a custom icon for the mod.
 
+> [!NOTE]  
 > See example of setting a custom icon below.
 
 ```c#

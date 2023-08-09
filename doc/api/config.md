@@ -2,6 +2,7 @@
 
 More info on [config creation](config.md#iconfig) and [custom type parsers](config.md#typeparsert) below.
 
+> [!NOTE]  
 > Also consider checking out an [example KSL mod](https://github.com/trbflxr/ksl_sdk) to get a more detailed example.
 
 This is an advanced way to save the mod / extension config values. If you need a simple way to store mod / extension data, consider using [Prefs storage](prefs.md).

@@ -26,6 +26,7 @@ T Get<T>(string key, T defaultValue = default);
 
 This method is used to get the value from the prefs storage. Where is **T** is one of [supported types](#supported-types).
 
+> [!NOTE]  
 > **Note:** If there is no value with specified **key** presented in the storage, then default value for the type will be returned. However you can explicitly specify the default value.
 
 Example:

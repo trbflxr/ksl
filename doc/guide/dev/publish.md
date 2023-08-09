@@ -15,7 +15,8 @@ To make a release follow the steps below:
 
 Latest release tag will be referenced by KSL updater as latest mod / extension version.
 
-> Important: Tag have to be in format ```v*.*.*``` so KSL can parse the version properly. Example: **v1.2.5**, **v2.10.1**
+> [!IMPORTANT]  
+> Tag have to be in format ```v*.*.*``` so KSL can parse the version properly. Example: **v1.2.5**, **v2.10.1**
 
 ### 4. Fill the release info<br/> ![releases_description](../../images/updater_releases_description.png)
 
@@ -24,6 +25,7 @@ Latest release tag will be referenced by KSL updater as latest mod / extension v
 3. Additional information (optional)
 4. Release [archive(s)](updater.md#release-archive)
 
+> [!NOTE]  
 > All the text below ```---``` will be ignored by KSL updater and the text above ```---``` will be displayed as a changelog.
 
 At this point you can publish a new release and on the next game start KSL updater will be able to fetch it and perform an update if needed.

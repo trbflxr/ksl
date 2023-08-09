@@ -11,6 +11,7 @@ public int Bind(KeyCode key, Action action, string displayName = null, ActionTyp
 public int Bind(KeyCode[] keys, Action action, 	string displayName = null, ActionType actionType = ActionType.Pressed);
 ```
 
+> [!NOTE]  
 > Arguments:
 > * KeyCode **key** / KeyCode[] **keys** - default bind key or key combination; it can be changed in the mod settings later
 > * Action **action** - an action that will be called
@@ -29,6 +30,7 @@ public override void OnStart() {
 
 ## SetSuppressInput
 
+> [!WARNING]  
 > Be really careful with it because this method will suppress all KSL input if **true** passed.
 
 For example if user has selected the chat window in the game and starts typing, **SetSuppressInput** should be called with **true** to suppress KSL input. After the chat is no longer active (in focus) call **SetSuppressInput** with **false** to unlock the input.

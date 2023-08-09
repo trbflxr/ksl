@@ -1,5 +1,6 @@
 ﻿# KSL control panel
 
+> [!IMPORTANT]  
 > To have access to KSL control panned you have to get [developer rights](developer_rights.md) first.
 
 In case if you already have developer rights you should be able to enable devtools in the [KSL settings](../setup.md#dev-settings).
@@ -8,6 +9,7 @@ From now you should see **Devtools** icon in the KSL main menu.
 
 ![devtools_control_panel](../../images/devtools_control_panel.png)
 
+> [!NOTE]  
 > Control panel are used for:
 > * New mod / extensions [registration](#mod-registration)
 > * [Management](#mod-management) of your mods / extensions:
@@ -27,7 +29,8 @@ In this section you can register new mod / extension and configure them.
 
 ![devtools_mod_register](../../images/devtools_mod_register.png)
 
-> **Note:** Almost every parameter have a tooltip. If you are not sure what it do just hover a mouse over it for a sec.
+> [!NOTE]  
+> Almost every parameter have a tooltip. If you are not sure what it do just hover a mouse over it for a sec.
 
 Here you can:
 
@@ -43,8 +46,10 @@ Here you can:
     * Choose how it should be updated
 * Choose whether you want it to be displayed in the ModDB (WIP)
 
-> **Note:** Keep in mind that most of the listed parameters can be changed later in the [mod control panel](#mod-management).
+> [!NOTE]  
+> Keep in mind that most of the listed parameters can be changed later in the [mod control panel](#mod-management).
 
+> [!NOTE]  
 > **Github repository**: If you are not sure why it's needed consider to read more about KSL [update process](updater.md).
 
 After you have completed the setup click on **Request registration** and if everything is filled in correctly, the new mod / extension will appear in the control panel.
@@ -59,7 +64,8 @@ If you are not sure how to get SteamID then you can use services like [steamid.i
 
 ### Repository link
 
-> **Important:** You can link repository only once. If you want to change it you have to open a [ticket](https://discord.com/channels/716264804498538516/818886497570521109) and request repository relink.
+> [!IMPORTANT]  
+> You can link repository only once. If you want to change it you have to open a [ticket](https://discord.com/channels/716264804498538516/818886497570521109) and request repository relink.
 
 ![devtools_mod_repo](../../images/devtools_mod_repo.png)
 
@@ -67,7 +73,8 @@ Here you can select repository that you want to link to the mod / extension. The
 
 ### Updater type
 
-> **Note:** You can enable mod / extension updates only if you have repository linked to it.
+> [!NOTE]  
+> You can enable mod / extension updates only if you have repository linked to it.
 
 ![devtools_mod_update](../../images/devtools_mod_update.png)
 
@@ -109,8 +116,9 @@ To generate [maykr](maykr.md) key first, make sure that all changes are saved (i
 
 If the generation was successful you will be prompted to open the folder with the key. Otherwise you will see an error at the top of the menu.
 
-> **Important:** Don't share keys with anyone. The exception would be members of the mod / extension development team.
-
+> [!IMPORTANT]  
+> Don't share keys with anyone. The exception would be members of the mod / extension development team.
+>
 > For each mod / extension you have to generate a new key.
-
+>
 > It is enough to generate the key once for a mod / extension.

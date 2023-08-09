@@ -21,6 +21,7 @@ public string ProcessName { get; }
 public string[] DllSearchPaths { get; }
 ```
 
+> [!IMPORTANT]  
 > Keep in mind that **Dev** directory will only be created if you have enabled devtools in the KSL developer settings.
 
 Example:

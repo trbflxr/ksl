@@ -13,8 +13,10 @@ KSL featuring 2 types of mods / extensions:
 * **Public** - Are available for all users
 * **Private** - SteamID locked for whitelisted users only
 
+> [!IMPORTANT]  
 > Before you start developing mods / extensions, you need to get **developer rights**. Read more about getting the rights [here](developer_rights.md).
 
+> [!IMPORTANT]  
 > Also make sure you have KSL devtools and SDK downloaded. You can get it [here](https://github.com/trbflxr/ksl_sdk).
 
 ## Setup Project
@@ -38,6 +40,7 @@ Mods and extensions for KSL have to be built using KSL maykr tool.
 
 Learn more about build process [here](maykr.md).
 
+> [!IMPORTANT]  
 > Make sure you have [developer rights](developer_rights.md) before building the mod / extension. Otherwise you will not be able to [generate a key](control_panel.md) for the mod / extension.
 
 ## Publish release

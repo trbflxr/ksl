@@ -15,7 +15,8 @@ The attribute have 3 string parameters:
 * **version** - version of the mod that is also used by [updater](../guide/dev/updater.md)
 * **author** - an author or a team that created the mod
 
-> version has to be in the following format: **major.minor.patch**
+> [!IMPORTANT]  
+> Version has to be in the following format: **major.minor.patch**
 
 ## Getters
 

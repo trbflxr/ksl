@@ -1,9 +1,11 @@
 # KSL Maykr
 
+> [!NOTE]  
 > This tool is needed to build mods and extensions for KSL. You can download the tool as part of [SDK](https://github.com/trbflxr/ksl_sdk).
 
 Maykr is a commandline tool for a final build of mods and extensions. You can easily include it in your current build pipeline.
 
+> [!IMPORTANT]  
 > Before using make sure that you have [developer rights](developer_rights.md), that your mod / extension is [registered and configured](control_panel.md), and that you have [generated a key](control_panel.md#generate-maykr-build-key).
 
 ## How it works
@@ -28,7 +30,8 @@ Here are 3 ways to use the maykr:
 
 You can build mods / extensions by drag-n-dropping them on the maykr executable.
 
-> **Important:** To use it this way, the **.kmc** file has to be located near **.dll** and it has to be named in this exact format: **ModName_maykr.kmc**.
+> [!IMPORTANT]  
+> To use it this way, the **.kmc** file has to be located near **.dll** and it has to be named in this exact format: **ModName_maykr.kmc**.
 >
 > Or you have to drag-n-drop both **.dll** and **.kmc** files on it.
 
@@ -53,7 +56,8 @@ Arguments:
 * **-o build** - output folder where maykr should save the mod / extension build result **(optional)**
 * **-np** - argument to prevent pause **(optional)**
 
-> **Important:** If you want to add the maykr to your build pipeline make sure you added **-np** argument to prevent pause or your build will get stuck on waiting for maykr to exit.
+> [!IMPORTANT]  
+> If you want to add the maykr to your build pipeline make sure you added **-np** argument to prevent pause or your build will get stuck on waiting for maykr to exit.
 
 Example usage:
 
@@ -67,7 +71,8 @@ Example usage:
 
 You can easily add maykr to the build pipeline. Here is two options how you can do it.
 
-> Note: You can automate it as you wish. The variants below are just some examples of how you can do it.
+> [!NOTE]  
+> You can automate it as you wish. The variants below are just some examples of how you can do it.
 
 ### Easy way
 
@@ -95,6 +100,7 @@ Description:
 * **-o game_path/kino/mods** - Explicitly specified output path. In this case maykr will build the mod and put it in the **mods** folder.
 * **-np** - Flag to prevent build pause.
 
+> [!NOTE]  
 > You can download example project [here](https://github.com/trbflxr/ksl_sdk).
 
 ### Advanced way

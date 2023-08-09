@@ -2,6 +2,7 @@
 
 This is a base class for KSL mods. All mods should be inherited from it.
 
+> [!NOTE]  
 > Keep in mind that this class inherits from MonoBehaviour so you can use Unity event methods in it.
 
 ## Getters
@@ -58,6 +59,7 @@ public virtual Texture2D GetIcon() { return null; }
 
 Override this method if you want to set a custom icon for the mod.
 
+> [!NOTE]  
 > See example of setting a custom icon below.
 
 ```c#

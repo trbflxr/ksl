@@ -18,10 +18,11 @@ Game and system requirements:
 * Steamworks, currently Facepunch.Steamworks and Steamworks.NET are supported
 * Internet connection
 
+> [!NOTE]  
 > Installation guide can be found [here](doc/guide/install.md).
-
+>
 > Learn how to setup and configure KSL [here](doc/guide/setup.md).
-
+>
 > **Mods / extension** installation guide can be found [here](doc/guide/install_content.md).
 
 ## Features

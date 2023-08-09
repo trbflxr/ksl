@@ -2,7 +2,8 @@
 
 To develop mods for KSL, you should download KSL SDK fist. You can get it [here](https://github.com/trbflxr/ksl_sdk).
 
-> Note: You can add KSL SDK as git submodule. Learn more about git submodules [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+> [!NOTE]  
+> You can add KSL SDK as git submodule. Learn more about git submodules [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 Basic setup can be done by:
 
@@ -22,7 +23,8 @@ Here is an example on how to add a reference in Rider and VisualStudio.
 
 Also if you want to use [Harmony](https://github.com/pardeike/Harmony) you can add a reference to 0Harmony.dll in the same way.
 
-> **Note:** In order to see in-code documentation you can place **KSL.API.xml** near the **KSL.API.dll**.
+> [!NOTE]  
+> In order to see in-code documentation you can place **KSL.API.xml** near the **KSL.API.dll**.
 
 ## Setup build tools
 

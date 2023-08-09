@@ -1,5 +1,6 @@
 ﻿# KSL mod development guide
 
+> [!IMPORTANT]  
 > At this point you already should have KSL [SDK](https://github.com/trbflxr/ksl_sdk) downloaded and configured [project](setup_project.md).
 >
 > Also your mod must be **registered** and you should already **generated a key** for the maykr. Learn more about it [here](control_panel.md).
@@ -21,6 +22,7 @@ public class ExampleMod : BaseMod {
 }
 ```
 
+> [!NOTE]  
 > Keep in mind that [BaseMod](../../api/base_mod.md) class inherited from MonoBehaviour and you can use all Unity event functions in it.
 
 ## Metadata setup
