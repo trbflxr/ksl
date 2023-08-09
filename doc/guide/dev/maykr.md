@@ -6,11 +6,11 @@
 Maykr is a commandline tool for a final build of mods and extensions. You can easily include it in your current build pipeline.
 
 > [!IMPORTANT]  
-> Before using make sure that you have [developer rights](developer_rights.md), that your mod / extension is [registered and configured](control_panel.md), and that you have [generated a key](control_panel.md#generate-maykr-build-key).
+> Before using make sure that you have [developer rights](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/developer_rights.md), that your mod / extension is [registered and configured](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md), and that you have [generated a key](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md#generate-maykr-build-key).
 
 ## How it works
 
-To build mods / extensions you have to generate a key first. Find out how to do it [here](control_panel.md#generate-maykr-build-key).
+To build mods / extensions you have to generate a key first. Find out how to do it [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md#generate-maykr-build-key).
 
 Maykr needs at least a **build key** and a **path** to the original mod / extension .dll file to work.
 
@@ -78,7 +78,7 @@ You can easily add maykr to the build pipeline. Here is two options how you can 
 
 If you are solo developer and working only on one machine then this is the easiest way to use the maykr.
 
-Add new **\<PropertyGroup>** to your **.csproj** file. Then add new **\<PostBuildEvent>** and call maykr in it with the path to mod / extension **.dll** file, path to [key file](control_panel.md#generate-maykr-build-key), output path and an **-np** argument.
+Add new **\<PropertyGroup>** to your **.csproj** file. Then add new **\<PostBuildEvent>** and call maykr in it with the path to mod / extension **.dll** file, path to [key file](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md#generate-maykr-build-key), output path and an **-np** argument.
 
 Here is an example how to do it:
 
@@ -96,7 +96,7 @@ Description:
 
 * **$(SolutionDir)sdk/maykr.exe** - Path to maykr.exe. In this example KSL SDK are located in the sdk folder near to the main **.sln** file.
 * **$(SolutionDir)build/$(Configuration)/Mod.dll** - Path to mod / extension **.dll** file.
-* **-c $(SolutionDir)config/Mod_maykr.kmc** - Path to generated [key](control_panel.md#generate-maykr-build-key) file.
+* **-c $(SolutionDir)config/Mod_maykr.kmc** - Path to generated [key](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md#generate-maykr-build-key) file.
 * **-o game_path/kino/mods** - Explicitly specified output path. In this case maykr will build the mod and put it in the **mods** folder.
 * **-np** - Flag to prevent build pause.
 

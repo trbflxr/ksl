@@ -30,7 +30,7 @@ private void UnloadTheMod() {
 bool IsModLoadedWithName(string modName);
 ```
 
-This method is used to check if the mod or extension with name are loaded. See also [IsModLoadedWithGuid](loader.md#ismodloadedwithguid)
+This method is used to check if the mod or extension with name are loaded. See also [IsModLoadedWithGuid](#ismodloadedwithguid)
 
 Example usage:
 
@@ -48,7 +48,7 @@ public override void OnStart() {
 bool IsModLoadedWithGuid(string modGuid);
 ```
 
-This method is used to check if a mod or an extension with GUID are loaded. See also [IsModLoadedWithName](loader.md#ismodloadedwithname)
+This method is used to check if a mod or an extension with GUID are loaded. See also [IsModLoadedWithName](#ismodloadedwithname)
 
 Example usage:
 

@@ -109,7 +109,7 @@ public void EndVertical();
 
 Those methods are used to draw layout groups. Works on the same principals as Unity methods.
 
-Also you can use [Group](ui.md#group-enum) parameter to specify the elements' margins.
+Also you can use [Group](#group-enum) parameter to specify the elements' margins.
 
 Example:
 
@@ -250,12 +250,12 @@ This method is used to draw hyperlinks with ability to execute a callback or ope
 > Parameters for the hyperlink with a URL:
 > * string **text** - hyperlink text
 > * string **url** - URL to open
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 
 > Parameters for the hyperlink with a callback:
 > * string **text** - hyperlink text
 > * Action **callback** - the callback that will be called
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 
 Example usage:
 
@@ -284,13 +284,13 @@ This method allows to create a label with a hyperlink in it. Useful to create te
 > * string **format** - string format that should include **<![CDATA[<link>]]>** in order to have hyperlink
 > * string **linkText** - hyperlink text that will replace **<![CDATA[<link>]]>** in **format**
 > * string **url** - URL to open
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 
 > Parameters for hyperlink with callback:
 > * string **format** - string format that should include **<![CDATA[<link>]]>** in order to have hyperlink
 > * string **linkText** - hyperlink text that will replace **<![CDATA[<link>]]>** in **format**
 > * Action **callback** - the callback that will be called
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 
 Example usage:
 
@@ -316,9 +316,9 @@ This method is used to draw text buttons with text aligned to middle.
 
 > Parameters:
 > * string **text** - button text
-> * Group **group** - optional [group](ui.md#group-enum)
+> * Group **group** - optional [group](#group-enum)
 > * bool **active** - optional flag to set the button look pressed down
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the button is pressed
 
@@ -344,8 +344,8 @@ This method is used to draw text buttons with text aligned to left side and with
 
 > Parameters:
 > * string **text** - button text
-> * Group **group** - optional [group](ui.md#group-enum)
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Group **group** - optional [group](#group-enum)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the button is pressed
 
@@ -374,8 +374,8 @@ Toggle switch with a label and a small toggle button.
 > Parameters:
 > * string **text** - toggle label text
 > * **ref** bool **active** - ref to a bool flag that represent the toggle activity
-> * Group **group** - optional [group](ui.md#group-enum)
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Group **group** - optional [group](#group-enum)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the element was toggled
 
@@ -406,8 +406,8 @@ This method used to draw a slider with a label.
 > * float **min** - min. value
 > * float **max** - max. value
 > * string **text** - display text
-> * Group **group** - optional [group](ui.md#group-enum)
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Group **group** - optional [group](#group-enum)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the value has changed
 
@@ -437,8 +437,8 @@ This method is used to draw more advanced sliders with **+** and **-** buttons. 
 > * float **max** - max. value
 > * float **step** - step that will be added or subtracted by clicking the buttons and dragging the slider
 > * string **text** - display text
-> * Group **group** - optional [group](ui.md#group-enum)
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Group **group** - optional [group](#group-enum)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the value has changed
 
@@ -466,8 +466,8 @@ This method is used to draw a text input field with optional max. length and reg
 > * **ref** string **value** - ref to a string value
 > * int **maxLength** - optional max. text length
 > * string **regex** - optional regex to validate **value**
-> * Group **group** - optional [group](ui.md#group-enum)
-> * Tooltip **tooltip** - optional [tooltip](ui.md#tooltip-class)
+> * Group **group** - optional [group](#group-enum)
+> * Tooltip **tooltip** - optional [tooltip](#tooltip-class)
 >
 > Return: **true** if the value has changed
 
@@ -493,7 +493,7 @@ This method allows to draw a List view component from a list of items. This meth
 
 > Parameters:
 > * **ref** Vector2 **scrollPos** - ref to Vector2 scroll position
-> * float **visibleHeight** - visible list height. It will be scaled depending on KSL [UI.Scale](ui.md#scale)
+> * float **visibleHeight** - visible list height. It will be scaled depending on KSL [UI.Scale](#scale)
 > * List<T> **items** - the list of items to display
 > * Action<int, T> **drawCallback** - item draw callback it will be called for each item; here you can specify how to draw the item
 

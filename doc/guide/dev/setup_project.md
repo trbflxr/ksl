@@ -30,4 +30,4 @@ Also if you want to use [Harmony](https://github.com/pardeike/Harmony) you can a
 
 All mod developers can load "raw" **.dll** files as mods / extensions. But for regular users all KSL mods and extensions should be built as **.ksm** and **.kse** respectively.
 
-Learn how to setup and use KSL maykr [here](maykr.md).
+Learn how to setup and use KSL maykr [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/maykr.md).

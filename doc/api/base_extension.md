@@ -20,7 +20,7 @@ Path to the mod file on disc
 public KSLMeta Meta { get; internal set; }
 ```
 
-Metadata. Learn more about it [here](ksl_meta.md)
+Metadata. Learn more about it [here](https://github.com/trbflxr/ksl/blob/master/doc/api/ksl_meta.md)
 
 ---
 
@@ -113,7 +113,7 @@ public virtual void OnUIDraw() { }
 ```
 
 Draw all mod UI in this method. It will be called if you select the mod in the main menu.
-You can draw UI using [KSL UI](ui.md) or using the default unity GUI or GUILayout.
+You can draw UI using [KSL UI](https://github.com/trbflxr/ksl/blob/master/doc/api/ui.md) or using the default unity GUI or GUILayout.
 
 ---
 
@@ -124,7 +124,7 @@ public virtual void OnAdditionalAboutUIDraw() { }
 ```
 
 Additional UI for the "About" context. It will be called if you navigate to "About" context of the mod.
-You can draw UI using [KSL UI](ui.md) or using the default unity GUI or GUILayout.
+You can draw UI using [KSL UI](https://github.com/trbflxr/ksl/blob/master/doc/api/ui.md) or using the default unity GUI or GUILayout.
 
 ---
 

@@ -23,7 +23,7 @@ Latest release tag will be referenced by KSL updater as latest mod / extension v
 1. Release title
 2. Changelog
 3. Additional information (optional)
-4. Release [archive(s)](updater.md#release-archive)
+4. Release [archive(s)](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/updater.md#release-archive)
 
 > [!NOTE]  
 > All the text below ```---``` will be ignored by KSL updater and the text above ```---``` will be displayed as a changelog.

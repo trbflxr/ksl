@@ -1,9 +1,9 @@
 ﻿# KSL mod development guide
 
 > [!IMPORTANT]  
-> At this point you already should have KSL [SDK](https://github.com/trbflxr/ksl_sdk) downloaded and configured [project](setup_project.md).
+> At this point you already should have KSL [SDK](https://github.com/trbflxr/ksl_sdk) downloaded and configured [project](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/setup_project.md).
 >
-> Also your mod must be **registered** and you should already **generated a key** for the maykr. Learn more about it [here](control_panel.md).
+> Also your mod must be **registered** and you should already **generated a key** for the maykr. Learn more about it [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md).
 
 Here is list of steps to start mod development:
 
@@ -14,7 +14,7 @@ Here is list of steps to start mod development:
 
 ## Entry point creation
 
-Create an entrypoint class and extend it from [BaseMod](../../api/base_mod.md).
+Create an entrypoint class and extend it from [BaseMod](https://github.com/trbflxr/ksl/blob/master/doc/api/base_mod.md).
 
 ```c#
 public class ExampleMod : BaseMod {
@@ -23,11 +23,11 @@ public class ExampleMod : BaseMod {
 ```
 
 > [!NOTE]  
-> Keep in mind that [BaseMod](../../api/base_mod.md) class inherited from MonoBehaviour and you can use all Unity event functions in it.
+> Keep in mind that [BaseMod](https://github.com/trbflxr/ksl/blob/master/doc/api/base_mod.md) class inherited from MonoBehaviour and you can use all Unity event functions in it.
 
 ## Metadata setup
 
-Add to the entrypoint class a [KSLMeta](../../api/ksl_meta.md) attribute.
+Add to the entrypoint class a [KSLMeta](https://github.com/trbflxr/ksl/blob/master/doc/api/ksl_meta.md) attribute.
 
 ```c#
 [KSLMeta("ExampleMod", "1.0.0", "trbflxr")]
@@ -40,7 +40,7 @@ At this point your mod can be loaded by KSL.
 
 ## Setup UI
 
-To create the UI for the mod you can use [KSL.UI](../../api/ui.md) or default UnityEngine.IMGUIModule.
+To create the UI for the mod you can use [KSL.UI](https://github.com/trbflxr/ksl/blob/master/doc/api/ui.md) or default UnityEngine.IMGUIModule.
 
 ```c#
 [KSLMeta("ExampleMod", "1.0.0", "trbflxr")]

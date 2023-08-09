@@ -1,7 +1,7 @@
 ﻿# KSL control panel
 
 > [!IMPORTANT]  
-> To have access to KSL control panned you have to get [developer rights](developer_rights.md) first.
+> To have access to KSL control panned you have to get [developer rights](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/developer_rights.md) first.
 
 In case if you already have developer rights you should be able to enable devtools in the [KSL settings](../setup.md#dev-settings).
 
@@ -50,7 +50,7 @@ Here you can:
 > Keep in mind that most of the listed parameters can be changed later in the [mod control panel](#mod-management).
 
 > [!NOTE]  
-> **Github repository**: If you are not sure why it's needed consider to read more about KSL [update process](updater.md).
+> **Github repository**: If you are not sure why it's needed consider to read more about KSL [update process](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/updater.md).
 
 After you have completed the setup click on **Request registration** and if everything is filled in correctly, the new mod / extension will appear in the control panel.
 
@@ -69,7 +69,7 @@ If you are not sure how to get SteamID then you can use services like [steamid.i
 
 ![devtools_mod_repo](../../images/devtools_mod_repo.png)
 
-Here you can select repository that you want to link to the mod / extension. The repository list will be fetched automatically from github you provided when you requested the [dev rights](developer_rights.md).
+Here you can select repository that you want to link to the mod / extension. The repository list will be fetched automatically from github you provided when you requested the [dev rights](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/developer_rights.md).
 
 ### Updater type
 
@@ -112,7 +112,7 @@ And more importantly you can [generate a maykr key](#generate-maykr-build-key) t
 
 ## Generate maykr build key
 
-To generate [maykr](maykr.md) key first, make sure that all changes are saved (if not everything is saved, you will see the warning) and click on the **generate** button.
+To generate [maykr](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/maykr.md) key first, make sure that all changes are saved (if not everything is saved, you will see the warning) and click on the **generate** button.
 
 If the generation was successful you will be prompted to open the folder with the key. Otherwise you will see an error at the top of the menu.
 

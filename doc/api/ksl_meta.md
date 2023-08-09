@@ -12,7 +12,7 @@ public class MyMod : BaseMod {
 The attribute have 3 string parameters:
 
 * **modName** - the name of the mod that will be displayed in the KSL mods menu
-* **version** - version of the mod that is also used by [updater](../guide/dev/updater.md)
+* **version** - version of the mod that is also used by [updater](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/updater.md)
 * **author** - an author or a team that created the mod
 
 > [!IMPORTANT]  

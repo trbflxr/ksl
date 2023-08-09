@@ -4,7 +4,7 @@ This is a simple way to store the mod / extension config values.
 
 Every mod / extension has its own prefs storage. You don't have to set anything up and can use it immediately. However prefs storage supports only following [types](#supported-types).
 
-If you need more advanced and flexible way to store the mod / extension values, consider using the [Config](config.md) interface.
+If you need more advanced and flexible way to store the mod / extension values, consider using the [Config](https://github.com/trbflxr/ksl/blob/master/doc/api/config.md) interface.
 
 ### Supported types
 

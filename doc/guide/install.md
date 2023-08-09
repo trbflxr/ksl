@@ -3,6 +3,6 @@
 ## Select OS
 
 
-> [**Windows**](install_win.md)
+> [**Windows**](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_win.md)
 
-> [**OSX**](install_osx.md)
+> [**OSX**](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_osx.md)

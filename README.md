@@ -19,26 +19,26 @@ Game and system requirements:
 * Internet connection
 
 > [!NOTE]  
-> **Installation** guide can be found [here](doc/guide/install.md).
+> **Installation** guide can be found [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/install.md).
 >
-> Learn how to **setup and configure** KSL [here](doc/guide/setup.md).
+> Learn how to **setup and configure** KSL [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/setup.md).
 >
-> **Mods / extension** installation guide can be found [here](doc/guide/install_content.md).
+> **Mods / extension** installation guide can be found [here](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_content.md).
 
 ## Features
 
-* Well documented [API](doc/api/api.md)
+* Well documented [API](https://github.com/trbflxr/ksl/blob/master/doc/api/api.md)
 * In-game devtools:
-    * [Control panel](doc/guide/dev/control_panel.md) for mods / extensions
-    * [Release validation](doc/guide/dev/updater.md#create-and-test-release-archive) tools
-* An [auto updater](doc/guide/dev/updater.md) to keep installed mods updated
-* In-game expandable [UI](doc/api/ui.md) for mods and extensions
+    * [Control panel](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md) for mods / extensions
+    * [Release validation](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/updater.md#create-and-test-release-archive) tools
+* An [auto updater](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/updater.md) to keep installed mods updated
+* In-game expandable [UI](https://github.com/trbflxr/ksl/blob/master/doc/api/ui.md) for mods and extensions
 * Mod encryption
-* Support for [private mods](doc/guide/dev/control_panel.md#whitelist-management) (steamID-locked)
-* KSL [extensions](doc/guide/dev/extensions.md) system
-* [Input manager](doc/api/input.md)
-* Advanced [config](doc/api/config.md) system
-* Simple [prefs storage](doc/api/prefs.md) system
+* Support for [private mods](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/control_panel.md#whitelist-management) (steamID-locked)
+* KSL [extensions](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/extensions.md) system
+* [Input manager](https://github.com/trbflxr/ksl/blob/master/doc/api/input.md)
+* Advanced [config](https://github.com/trbflxr/ksl/blob/master/doc/api/config.md) system
+* Simple [prefs storage](https://github.com/trbflxr/ksl/blob/master/doc/api/prefs.md) system
 * KSL manager auto updater
 * Backward compatibility with BepInEx and legacy Kino mods
 * Developer console
@@ -47,7 +47,7 @@ Game and system requirements:
 
 Download KSL SDK [here](https://github.com/trbflxr/ksl_sdk/releases).
 
-Mods and extensions creation [documentation](doc/guide/dev/sdk.md).
+Mods and extensions creation [documentation](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/sdk.md).
 
 ## Features in development
 
