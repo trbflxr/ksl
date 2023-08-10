@@ -45,7 +45,7 @@ Game and system requirements:
 
 ## Developers guide
 
-Download KSL SDK [here](https://github.com/trbflxr/ksl_sdk/releases).
+Download KSL SDK [here](https://github.com/trbflxr/ksl_sdk).
 
 Mods and extensions creation [documentation](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/sdk.md).
 
