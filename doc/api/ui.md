@@ -52,13 +52,17 @@ Default Unity UI skin.
 
 ```c#
 public void PushContext(Action contextUI, string contextName = null);
+public void PushContext(Action contextUI, Action onPop, string contextName = null);
 ```
 
-Method allows you to push new context to the stack. Call it with UI function and optional (but recommended) context name specified.
+Methods allows you to push new context to the stack. Call it with UI function and optional (but recommended) context name specified.
+
+Also you can add optional OnPop callback that will be called for context when it popped from the stack.
 
 > Arguments:
 > * Action **contextUI** - a context UI function that should be called
-> * string **contextName** - optional name of the context
+> * string **contextName** - **optional** name of the context
+> * Action **onPop** - **optional** on pop callback
 
 Example usage:
 
