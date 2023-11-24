@@ -28,6 +28,14 @@ Base class for KSL extensions.
 
 ---
 
+## Interfaces
+
+### [ISyncProvider](https://github.com/trbflxr/ksl/blob/master/doc/api/isyncprovider.md)
+
+Synchronization provider interface. You can only implement it for [extensions](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/extensions.md). Needed to provide synchronization for KSL mods in multiplayer games.
+
+---
+
 ## API
 
 All API entrypoints are located in the **KSL.API** namespace in the static class **Kino**.
@@ -97,6 +105,13 @@ Container for KSL callbacks.
 ### [Info](https://github.com/trbflxr/ksl/blob/master/doc/api/info.md)
 
 Application and user info interface.
+
+---
+
+### [Sync](https://github.com/trbflxr/ksl/blob/master/doc/api/sync.md)
+
+An interface that allows you to add synchronization for your mods and extensions.  
+Provided that there are extensions for the game that provide a synchronization interface
 
 ---
 

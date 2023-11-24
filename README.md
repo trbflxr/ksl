@@ -39,9 +39,11 @@ Game and system requirements:
 * [Input manager](https://github.com/trbflxr/ksl/blob/master/doc/api/input.md)
 * Advanced [config](https://github.com/trbflxr/ksl/blob/master/doc/api/config.md) system
 * Simple [prefs storage](https://github.com/trbflxr/ksl/blob/master/doc/api/prefs.md) system
+* Mods [synchronization](https://github.com/trbflxr/ksl/blob/master/doc/api/sync.md) for multiplayer games
 * KSL manager auto updater
 * Backward compatibility with BepInEx and legacy Kino mods
 * Developer console
+* Simple network debug tools for developers
 
 ## Developers guide
 
