@@ -24,6 +24,24 @@ private void UnloadTheMod() {
 }
 ```
 
+### IsAllModsVerified
+
+```c#
+bool IsAllModsVerified();
+```
+
+Method allows you to check if all installed mods and extensions are verified
+
+Example usage:
+
+```c#
+public override void OnStart() {
+  if (Kino.Loader.IsAllModsVerified()) {
+    Kino.Log.Info("All mods are verified");
+  }
+}
+```
+
 ### IsModLoadedWithName
 
 ```c#
