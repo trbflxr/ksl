@@ -1,4 +1,4 @@
-﻿# KSL OSX installation guide
+﻿# KSL macOS installation guide
 
 > [!NOTE]  
 > The installation process will be shown using CarX as an example. The process is the same for all Unity games with **mono** runtime.
@@ -8,7 +8,7 @@
 Go to [**releases**](https://github.com/trbflxr/ksl/releases) and download the latest KSL release.
 
 > [!IMPORTANT]  
-> Keep in mind that for **OSX** you have to download the archive with **osx** suffix.
+> Keep in mind that for **macOS** you have to download the archive with **osx** suffix.
 
 ![latest_release](../images/install_release_osx.png)
 

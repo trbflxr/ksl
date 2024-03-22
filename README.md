@@ -10,7 +10,7 @@ KSL is an advanced mod loader developed for **Unity mono** games.
 Supported platforms:
 
 * Windows x64
-* OSX (WIP tested only on Ventura 13.1)
+* macOS (WIP tested only on Ventura 13.1)
 
 Game and system requirements:
 

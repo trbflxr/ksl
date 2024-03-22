@@ -43,7 +43,7 @@ Archive hierarchy is important. Please check this [note](https://github.com/trbf
 > [!NOTE]  
 > If you want to make Windows only mods feel free to skip this section and continue to [archive creation](#create-and-test-release-archive).
 
-KSL mods should be written using .NET Framework and it means that the mods should run on Windows and OSX games just fine without making making separate versions.
+KSL mods should be written using .NET Framework and it means that the mods should run on Windows and macOS games just fine without making making separate versions.
 
 In case that you have to use platform dependent code then you have to build separate versions of the mod for each platform individually.
 
@@ -52,7 +52,7 @@ Users and KSL have to know which version to install. So we decided to use archiv
 > [!NOTE]  
 > If your mod is platform independent you don't need to do anything. Continue to [archive creation](#create-and-test-release-archive).
 
-For windows you should put **_win** suffix in the archive name and for OSX use **_osx** suffix respectively.
+For windows you should put **_win** suffix in the archive name and for macOS use **_osx** suffix respectively.
 
 Example:
 
