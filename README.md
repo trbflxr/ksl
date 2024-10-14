@@ -51,10 +51,6 @@ Download KSL SDK [here](https://github.com/trbflxr/ksl_sdk).
 
 Mods and extensions creation [documentation](https://github.com/trbflxr/ksl/blob/master/doc/guide/dev/sdk.md).
 
-## Features in development
-
-* **ModDB** - in-game mods / extensions database
-
 ## Questions, suggestions and games support
 
 If you have any questions or suggestions or the loader doesn't work on your game, please contact **trbflxr** @Discord.
